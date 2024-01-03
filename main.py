@@ -106,7 +106,7 @@ def search_password():
 
 window = Tk()
 window.title("Password Manager")
-icon_path = r"icon.ico"
+icon_path = r"assets\icon.ico"
 window.iconbitmap(icon_path)
 window.geometry("767x464")
 window.configure(bg="#FFFFFF")
