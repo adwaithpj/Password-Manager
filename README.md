@@ -16,7 +16,22 @@ This Python-based password manager, developed with Tkinter, provides a secure an
 
 ## Download the Executable App 📥
 - **Windows Users:** [Download Password Manager for Windows](https://github.com/adwaithpj/Password-Manager/releases/tag/Windows)
-- **Linux Users:** [Download Password Manager for Linux](#)
+- **Linux Users:** [Download Password Manager for Linux](https://github.com/adwaithpj/Password-Manager/releases/tag/Linux)
+-   For Linux Users:        
+
+    **Ensure Executable Permissions:**
+      - On your Linux machine, make sure the executable has the necessary permissions. Use the `chmod` command:
+   
+        ```bash
+        chmod +x App
+        ```
+   
+    **Run the Executable:**
+      - Execute your application on the Linux machine:
+   
+        ```bash
+        ./App
+        ```
 
 ## GitHub Setup 🌐
 For development purposes, follow these GitHub-related steps:
@@ -67,3 +82,6 @@ For development purposes, follow these GitHub-related steps:
 This password manager was developed as a simple project and can be extended for additional features and security enhancements.
 
 Feel free to contribute or provide feedback! 🌟
+
+
+
