@@ -15,7 +15,7 @@ This Python-based password manager, developed with Tkinter, provides a secure an
 - gspread library (currently commented out in the code, can be uncommented for Google Sheets integration)
 
 ## Download the Executable App 📥
-- **Windows Users:** [Download Password Manager for Windows](#)
+- **Windows Users:** [Download Password Manager for Windows](https://github.com/adwaithpj/Password-Manager/releases/tag/Windows)
 - **Linux Users:** [Download Password Manager for Linux](#)
 
 ## GitHub Setup 🌐
