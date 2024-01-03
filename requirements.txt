@@ -1,5 +1,2 @@
-tkinter
-gspread
+
 pyperclip
-json
-string
