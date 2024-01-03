@@ -21,7 +21,7 @@ parts/
 sdist/
 var/
 wheels/
-Test Files/
+\Test File\g
 share/python-wheels/
 *.egg-info/
 .installed.cfg
