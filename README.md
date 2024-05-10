@@ -1,7 +1,7 @@
 # Password Manager 💻🔐
 
 ## Overview
-This Python-based password manager, developed with Tkinter, provides a secure and user-friendly way to generate, save, and manage passwords. It includes features for password generation, local storage, and search functionality.
+This Python-Flutter based password manager, developed with Flet python, provides a secure and user-friendly way to generate, save, and manage passwords. It includes features for password generation, local storage, and search functionality.
 
 ## Features 🚀
 - **Password Generation:** Easily generate strong and secure passwords with customizable lengths.
@@ -11,27 +11,16 @@ This Python-based password manager, developed with Tkinter, provides a secure an
 
 ## Prerequisites 🛠️
 - Python 3.x
-- Tkinter library
-- gspread library (currently commented out in the code, can be uncommented for Google Sheets integration)
+- Flet Framework
+
 
 ## Download the Executable App 📥
 - **Windows Users:** [Download Password Manager for Windows](https://github.com/adwaithpj/Password-Manager/releases/tag/Windows)
-- **Linux Users:** [Download Password Manager for Linux](https://github.com/adwaithpj/Password-Manager/releases/tag/Linux)
+- **Linux Users:** 
 -   For Linux Users:        
 
-    **Ensure Executable Permissions:**
-      - On your Linux machine, make sure the executable has the necessary permissions. Use the `chmod` command:
-   
-        ```bash
-        chmod +x App
-        ```
-   
-    **Run the Executable:**
-      - Execute your application on the Linux machine:
-   
-        ```bash
-        ./App
-        ```
+    **Build the application in Linux platform and contirbute :}**
+      
 
 ## GitHub Setup 🌐
 For development purposes, follow these GitHub-related steps:
@@ -67,16 +56,15 @@ For development purposes, follow these GitHub-related steps:
      pip install -r requirements.txt
      ```
 
-6. **Run the Application:**
-   - Run the `password_manager.py` script using Python:
-     ```bash
-     python main.py
+6. **Build the Application:**
+     ```flet
+     flet build linux
      ```
 
 ## Additional Notes ℹ️
 - The code includes commented-out sections related to Google Sheets integration. Uncomment these sections and provide the necessary credentials to enable this feature.
 - There is jsondic.py file which has all the functionalities of Reading,Writing and Updating the JSON file.
-- The application uses a JSON file (`pass.json`) for local password storage. Ensure secure handling of this file.
+
 
 ## Acknowledgments 🙌
 This password manager was developed as a simple project and can be extended for additional features and security enhancements.
