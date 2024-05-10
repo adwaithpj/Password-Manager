@@ -2,6 +2,7 @@
 
 ## Overview
 This Python-Flutter based password manager, developed with Flet python, provides a secure and user-friendly way to generate, save, and manage passwords. It includes features for password generation, local storage, and search functionality.
+
 ![image](https://github.com/adwaithpj/Password-Manager/assets/77106316/e0a3aeae-4086-4f97-81b4-ccef5cd87150)
 
 
