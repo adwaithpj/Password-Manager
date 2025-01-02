@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "password-manager-gui"
+version = "2.0.0"
+description = "This is the windows gui application for the existing passman this uses backend technology of fastapi"
+authors = ["Adwaith PJ <adwaithleans616@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+flet = "^0.24.1"
+flet-route = "^0.3.3"
+pyperclip = "^1.9.0"
+asyncio = "^3.4.3"
+cython = "^3.0.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.flet]
+compile.app = true # --compile-app
+compile.packages = true # --compile-packages
+compile.cleanup = true # --cleanup-on-compile
+
+[tool.flet.flutter.dependencies.middleware]
+path = "middleware"
+[tool.flet.flutter.dependencies.views]
+path = "views"
+
